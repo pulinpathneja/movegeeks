@@ -15,7 +15,7 @@ def read_data():
 
 def data_generator():
     df = read_data()
-    for row in df.head().values:
+    for row in df.iloc[:10,:].values:
         row[-1] = str(datetime.datetime.now())
         time.sleep(1)
         logging.info({k:v for k, v in zip(COLUMNS,row)})
