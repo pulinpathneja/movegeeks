@@ -11,3 +11,7 @@ After predicting the hotspot magnitudes, a rating score (0-10) is assigned to ea
 
 Execute the hotspots.py file <br>
 $ python hotspots.py
+
+### Tableau Dashboard Links
+https://public.tableau.com/views/Bangaloretrafficalerts/Dashboard1?:embed=y&:display_count=yes
+https://public.tableau.com/shared/Z62H2Z8HD?:display_count=no
